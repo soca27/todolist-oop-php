@@ -13,7 +13,7 @@ namespace Config {
       $port = 3306;
       $db = "todolist_php_mysql";
       $username = "root";
-      $password = "";
+      $password = "Rahasia123";
 
       return new PDO("mysql:host=$host:$port;dbname=$db", $username, $password);
     }
